@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bharat.css">
+    <title>Cursor Animation</title>
+</head>
+<body>
+    <div class="content">
+    <h1>Cursor Follow on MouseMove</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae excepturi dicta nam inventore et, eligendi omnis temporibus quasi tempora delectus non culpa laborum obcaecati ut deleniti facilis alias reiciendis incidunt harum magni consequatur at. Sit voluptate architecto, illo ipsum veritatis unde odit, doloremque provident sunt, excepturi reiciendis delectus assumenda. Dolore blanditiis, molestiae vel in, eos eveniet nam nihil ad enim est velit libero doloribus corrupti quibusdam modi eum nostrum assumenda quam iure hic laboriosam voluptas? Aut, atque porro? Quam reiciendis iusto quae earum rerum excepturi aliquid molestias dolorum esse in laborum, nihil sit est exercitationem doloribus totam, animi nobis porro? ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquam fuga enim alias omnis blanditiis possimus est at vitae, adipisci incidunt, eveniet dolorem ipsum minus, id cumque. Blanditiis aperiam quibusdam ea, rem non deleniti amet impedit. Tempore officia sunt, inventore impedit quasi asperiores esse omnis quisquam delectus iure! Autem neque assumenda impedit corrupti nesciunt, deserunt blanditiis voluptatum laboriosam unde dignissimos! ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus accusamus odio architecto! Numquam harum ut, assumenda odio magni sunt at illo? Natus consequuntur sint perspiciatis quisquam nihil voluptatibus est corrupti commodi. Voluptatum qui natus eveniet ipsa laboriosam. Nemo natus vero reiciendis atque perferendis enim veniam vel. Temporibus possimus necessitatibus quasi distinctio soluta sed voluptate! Officiis ullam doloribus aperiam ea commodi!
+    </p>
+    </div>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove", function(e){
+           cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+        });
+    </script>
+    
+   
+
+</body>
+</html>
