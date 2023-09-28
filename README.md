@@ -158,3 +158,7 @@ The purpose of this code is to create a visually appealing cursor animation that
 - This code snippet can be integrated into various web projects to add a cursor animation effect without the need for external libraries or complex JavaScript.
 
 Feel free to adapt and expand upon this code to suit your specific design and interactivity requirements.
+
+## License
+
+The cuanimation web page is provided under the [MIT License](LICENSE). You are free to use and modify the code for your purposes. Please review the full license text for more details.
